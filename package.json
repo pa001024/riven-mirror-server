@@ -1,0 +1,25 @@
+{
+  "name": "riven-mirror-server",
+  "version": "1.0.0",
+  "private": true,
+  "author": "pa001024 <pa001024@qq.com>",
+  "scripts": {
+    "serve": "ts-node-dev src/index.ts --harmony"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "ts-node": "^8.0.2",
+    "ts-node-dev": "^1.0.0-pre.32"
+  }
+}
